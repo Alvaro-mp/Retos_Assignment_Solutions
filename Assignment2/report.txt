@@ -1,0 +1,714 @@
+New interaction network
+
+Interactor genes: At4g27030
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At1g21400
+KEGG pathways involved:
+id: ath00280, name:Valine, leucine and isoleucine degradation
+id: ath00640, name:Propanoate metabolism
+id: ath01100, name:Metabolic pathways
+id: ath01110, name:Biosynthesis of secondary metabolites
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At5g19120
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At1g22690
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At5g55620
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At1g31330
+KEGG pathways involved:
+id: ath00195, name:Photosynthesis
+id: ath01100, name:Metabolic pathways
+Related GO terms:
+id: GO:0015979, term:photosynthesis
+
+
+New interaction network
+
+Interactor genes: At3g28270
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At4g12800
+KEGG pathways involved:
+id: ath00195, name:Photosynthesis
+id: ath01100, name:Metabolic pathways
+Related GO terms:
+id: GO:0015979, term:photosynthesis
+id: GO:0007165, term:signal transduction
+
+
+New interaction network
+
+Interactor genes: At5g64040
+KEGG pathways involved:
+id: ath00195, name:Photosynthesis
+id: ath01100, name:Metabolic pathways
+Related GO terms:
+id: GO:0015979, term:photosynthesis
+
+
+New interaction network
+
+Interactor genes: At1g29660
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At1g64500
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At2g20670
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At2g03750
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At3g47470
+KEGG pathways involved:
+id: ath00196, name:Photosynthesis - antenna proteins
+id: ath01100, name:Metabolic pathways
+Related GO terms:
+id: GO:0009416, term:response to light stimulus
+
+
+New interaction network
+
+Interactor genes: At5g64410
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At1g15980
+KEGG pathways involved:
+Related GO terms:
+id: GO:0006412, term:translation
+
+
+New interaction network
+
+Interactor genes: At1g12250
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At2g21210
+KEGG pathways involved:
+id: ath04075, name:Plant hormone signal transduction
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At4g28660
+KEGG pathways involved:
+id: ath00195, name:Photosynthesis
+id: ath01100, name:Metabolic pathways
+Related GO terms:
+id: GO:0015979, term:photosynthesis
+
+
+New interaction network
+
+Interactor genes: At1g52230
+KEGG pathways involved:
+id: ath00195, name:Photosynthesis
+id: ath01100, name:Metabolic pathways
+Related GO terms:
+id: GO:0015979, term:photosynthesis
+
+
+New interaction network
+
+Interactor genes: At3g18890
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At2g04039
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At3g48420
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At5g07020
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At2g34430
+KEGG pathways involved:
+id: aly00196, name:Photosynthesis - antenna proteins
+id: aly01100, name:Metabolic pathways
+Related GO terms:
+id: GO:0009416, term:response to light stimulus
+
+
+New interaction network
+
+Interactor genes: At1g18060
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At2g30600
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At1g65490
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At3g21670
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At4g27260
+KEGG pathways involved:
+id: ath04075, name:Plant hormone signal transduction
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At1g55480
+KEGG pathways involved:
+Related GO terms:
+id: GO:0015979, term:photosynthesis
+id: GO:0009416, term:response to light stimulus
+
+
+New interaction network
+
+Interactor genes: At1g29395
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At1g70820
+KEGG pathways involved:
+Related GO terms:
+id: GO:0005975, term:carbohydrate metabolic process
+
+
+New interaction network
+
+Interactor genes: At3g26740
+KEGG pathways involved:
+Related GO terms:
+id: GO:0007623, term:circadian rhythm
+
+
+New interaction network
+
+Interactor genes: At1g64680
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At2g25200
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At4g21280
+KEGG pathways involved:
+id: ath00195, name:Photosynthesis
+id: ath01100, name:Metabolic pathways
+Related GO terms:
+id: GO:0015979, term:photosynthesis
+
+
+New interaction network
+
+Interactor genes: At1g06680
+KEGG pathways involved:
+id: ath00195, name:Photosynthesis
+id: ath01100, name:Metabolic pathways
+Related GO terms:
+id: GO:0015979, term:photosynthesis
+
+
+New interaction network
+
+Interactor genes: At2g43550
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At3g02730
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At1g42970
+KEGG pathways involved:
+id: ath00710, name:Carbon fixation in photosynthetic organisms
+id: ath01100, name:Metabolic pathways
+id: ath01200, name:Carbon metabolism
+Related GO terms:
+id: GO:0009416, term:response to light stimulus
+
+
+New interaction network
+
+Interactor genes: At2g39470
+KEGG pathways involved:
+Related GO terms:
+id: GO:0015979, term:photosynthesis
+
+
+New interaction network
+
+Interactor genes: At1g77490
+KEGG pathways involved:
+id: ath00053, name:Ascorbate and aldarate metabolism
+id: ath00480, name:Glutathione metabolism
+id: ath01100, name:Metabolic pathways
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At5g01015
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At1g14150
+KEGG pathways involved:
+id: ath00195, name:Photosynthesis
+id: ath01100, name:Metabolic pathways
+Related GO terms:
+id: GO:0015979, term:photosynthesis
+
+
+New interaction network
+
+Interactor genes: At1g64720
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At3g56940
+KEGG pathways involved:
+id: ath00860, name:Porphyrin and chlorophyll metabolism
+id: ath01100, name:Metabolic pathways
+id: ath01110, name:Biosynthesis of secondary metabolites
+Related GO terms:
+id: GO:0015979, term:photosynthesis
+
+
+New interaction network
+
+Interactor genes: At4g28030
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At1g78370
+KEGG pathways involved:
+id: ath00480, name:Glutathione metabolism
+id: ath01100, name:Metabolic pathways
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At1g23205
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At1g68010
+KEGG pathways involved:
+id: ath00260, name:Glycine, serine and threonine metabolism
+id: ath00630, name:Glyoxylate and dicarboxylate metabolism
+id: ath01100, name:Metabolic pathways
+id: ath01110, name:Biosynthesis of secondary metabolites
+id: ath01200, name:Carbon metabolism
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At3g61470
+KEGG pathways involved:
+id: ath00196, name:Photosynthesis - antenna proteins
+id: ath01100, name:Metabolic pathways
+Related GO terms:
+id: GO:0009416, term:response to light stimulus
+
+
+New interaction network
+
+Interactor genes: At4g28750
+KEGG pathways involved:
+id: ath00195, name:Photosynthesis
+id: ath01100, name:Metabolic pathways
+Related GO terms:
+id: GO:0015979, term:photosynthesis
+
+
+New interaction network
+
+Interactor genes: At5g24210
+KEGG pathways involved:
+Related GO terms:
+id: GO:0006629, term:lipid metabolic process
+
+
+New interaction network
+
+Interactor genes: At3g54890
+KEGG pathways involved:
+id: ath00196, name:Photosynthesis - antenna proteins
+id: ath01100, name:Metabolic pathways
+Related GO terms:
+id: GO:0009416, term:response to light stimulus
+
+
+New interaction network
+
+Interactor genes: At1g72610
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At3g08940
+KEGG pathways involved:
+id: ath00196, name:Photosynthesis - antenna proteins
+id: ath01100, name:Metabolic pathways
+Related GO terms:
+id: GO:0009416, term:response to light stimulus
+
+
+New interaction network
+
+Interactor genes: At5g62280
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At5g18670
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At1g28330
+KEGG pathways involved:
+Related GO terms:
+id: GO:0007275, term:multicellular organism development
+
+
+New interaction network
+
+Interactor genes: At4g33660
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At3g63140, At1g09340
+KEGG pathways involved:
+Related GO terms:
+id: GO:0007623, term:circadian rhythm
+
+
+New interaction network
+
+Interactor genes: At3g46780
+KEGG pathways involved:
+Related GO terms:
+id: GO:0007623, term:circadian rhythm
+
+
+New interaction network
+
+Interactor genes: At2g33830
+KEGG pathways involved:
+Related GO terms:
+id: GO:0007275, term:multicellular organism development
+
+
+New interaction network
+
+Interactor genes: At4g02530
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At1g13930
+KEGG pathways involved:
+Related GO terms:
+id: GO:0007165, term:signal transduction
+
+
+New interaction network
+
+Interactor genes: At1g76100
+KEGG pathways involved:
+id: ath00195, name:Photosynthesis
+id: ath01100, name:Metabolic pathways
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At1g08380
+KEGG pathways involved:
+id: ath00195, name:Photosynthesis
+id: ath01100, name:Metabolic pathways
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At2g38210
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At3g05730
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At5g48490
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At1g20440
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At5g02160
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At2g05540
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At2g43100
+KEGG pathways involved:
+id: ath00290, name:Valine, leucine and isoleucine biosynthesis
+id: ath00966, name:Glucosinolate biosynthesis
+id: ath01100, name:Metabolic pathways
+id: ath01110, name:Biosynthesis of secondary metabolites
+id: ath01210, name:2-Oxocarboxylic acid metabolism
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At5g49360
+KEGG pathways involved:
+Related GO terms:
+id: GO:0005975, term:carbohydrate metabolic process
+
+
+New interaction network
+
+Interactor genes: At1g30380
+KEGG pathways involved:
+id: ath00195, name:Photosynthesis
+id: ath01100, name:Metabolic pathways
+Related GO terms:
+id: GO:0015979, term:photosynthesis
+
+
+New interaction network
+
+Interactor genes: At1g78460
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At3g16140
+KEGG pathways involved:
+id: ath00195, name:Photosynthesis
+id: ath01100, name:Metabolic pathways
+Related GO terms:
+id: GO:0015979, term:photosynthesis
+
+
+New interaction network
+
+Interactor genes: At4g12310
+KEGG pathways involved:
+Related GO terms:
+
+
+New interaction network
+
+Interactor genes: At5g01530, At2g34420, At1g15820, At1g29920, At4g09010, At3g16250, At2g43010, At3g45780, At1g14280, At3g62550, At4g21210, At2g45170, At5g48300, At3g28220, At1g80440, At4g39710, At4g02770, At4g22890, At1g69870, At1g74730, At1g29910, At1g03130, At5g38990, At4g17090, At4g04640, At3g61260, At4g37610, At3g48360, At3g50820, At3g01500, At3g55800, At5g14740, At3g62410, At2g39730, At5g35630, At5g43750, At4g38840, At2g47930, At3g47340, At1g02640, At1g76080, At5g15850, At2g30950, At5g35170, At3g54050, At1g68570, At2g26080, At4g33010, At2g18700, At1g71030, At2g26740, At5g11070, At5g22920, At1g61520, At3g21870, At1g54040, At5g20250, At1g12900, At3g27690, At5g54270, At5g17300, At2g46340, At4g28780, At4g37800, At1g20020, At4g37980, At5g04140, At3g49160, At2g17880, At1g12780, At1g25230, At5g65010, At4g19170, At1g37130, At1g11850, At2g01890, At2g21330, At5g05690, At1g23740, At4g12830, At1g32220, At1g07010, At4g17460, At4g09650, At4g05180, At2g13360
+KEGG pathways involved:
+id: ath00196, name:Photosynthesis - antenna proteins
+id: ath01100, name:Metabolic pathways
+id: ath04144, name:Endocytosis
+id: ath00053, name:Ascorbate and aldarate metabolism
+id: ath00480, name:Glutathione metabolism
+id: ath04075, name:Plant hormone signal transduction
+id: ath04136, name:Autophagy - other
+id: ath00500, name:Starch and sucrose metabolism
+id: ath00520, name:Amino sugar and nucleotide sugar metabolism
+id: ath01110, name:Biosynthesis of secondary metabolites
+id: ath01250, name:Biosynthesis of nucleotide sugars
+id: ath00195, name:Photosynthesis
+id: ath00190, name:Oxidative phosphorylation
+id: ath00910, name:Nitrogen metabolism
+id: ath00710, name:Carbon fixation in photosynthetic organisms
+id: ath01200, name:Carbon metabolism
+id: ath00220, name:Arginine biosynthesis
+id: ath00250, name:Alanine, aspartate and glutamate metabolism
+id: ath00630, name:Glyoxylate and dicarboxylate metabolism
+id: ath01230, name:Biosynthesis of amino acids
+id: ath00230, name:Purine metabolism
+id: ath00730, name:Thiamine metabolism
+id: ath01240, name:Biosynthesis of cofactors
+id: ath00010, name:Glycolysis / Gluconeogenesis
+id: ath00030, name:Pentose phosphate pathway
+id: ath00051, name:Fructose and mannose metabolism
+id: ath00260, name:Glycine, serine and threonine metabolism
+id: ath04120, name:Ubiquitin mediated proteolysis
+id: ath00052, name:Galactose metabolism
+id: ath04712, name:Circadian rhythm - plant
+id: ath00940, name:Phenylpropanoid biosynthesis
+id: ath00620, name:Pyruvate metabolism
+id: ath00740, name:Riboflavin metabolism
+id: ath00906, name:Carotenoid biosynthesis
+id: ath00905, name:Brassinosteroid biosynthesis
+id: ath04146, name:Peroxisome
+Related GO terms:
+id: GO:0009416, term:response to light stimulus
+id: GO:0015979, term:photosynthesis
+id: GO:0007623, term:circadian rhythm
+id: GO:0006139, term:nucleobase-containing compound metabolic process
+id: GO:0005975, term:carbohydrate metabolic process
+id: GO:0007275, term:multicellular organism development
+id: GO:0030154, term:cell differentiation
+id: GO:0007049, term:cell cycle
+id: GO:0006412, term:translation
+
+
+New interaction network
+
+Interactor genes: At5g58260
+KEGG pathways involved:
+Related GO terms:
+
+
