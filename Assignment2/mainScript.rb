@@ -23,6 +23,7 @@ interaction_networks = InteractionNetwork.search_networks(gene_list = gene_list,
                                                           min_intact_score = 0.5)
 
 interaction_networks.each {|network|
+    puts "Starting annotation process for network #{interaction_networks.index(network)+1}/#{interaction_networks.length}"
     network.annotate()
   }
 

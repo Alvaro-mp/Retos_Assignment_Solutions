@@ -1,644 +1,8 @@
 New interaction network
 
-Interactor genes: At4g27030
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0008611, term: ether lipid biosynthetic process
- + id: GO:0046471, term: phosphatidylglycerol metabolic process
- + id: GO:0080167, term: response to karrikin
- + id: GO:0006636, term: unsaturated fatty acid biosynthetic process
- + id: GO:0006631, term: fatty acid metabolic process
-
-
-New interaction network
-
-Interactor genes: At1g21400
-KEGG pathways involved:
- - id: ath00280, name: Valine, leucine and isoleucine degradation
- - id: ath00640, name: Propanoate metabolism
- - id: ath01100, name: Metabolic pathways
- - id: ath01110, name: Biosynthesis of secondary metabolites
-Related GO terms:
- + id: GO:0009083, term: branched-chain amino acid catabolic process
- + id: GO:0043617, term: cellular response to sucrose starvation
- + id: GO:0009646, term: response to absence of light
- + id: GO:0009744, term: response to sucrose
- + id: GO:0009415, term: response to water
-
-
-New interaction network
-
-Interactor genes: At5g19120
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0071456, term: cellular response to hypoxia
-
-
-New interaction network
-
-Interactor genes: At1g22690
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0009740, term: gibberellic acid mediated signaling pathway
- + id: GO:0006417, term: regulation of translation
-
-
-New interaction network
-
-Interactor genes: At5g55620
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0006355, term: regulation of transcription, DNA-templated
-
-
-New interaction network
-
-Interactor genes: At1g31330
-KEGG pathways involved:
- - id: ath00195, name: Photosynthesis
- - id: ath01100, name: Metabolic pathways
-Related GO terms:
- + id: GO:0015979, term: photosynthesis
-
-
-New interaction network
-
-Interactor genes: At3g28270
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0042631, term: cellular response to water deprivation
- + id: GO:0071704, term: organic substance metabolic process
-
-
-New interaction network
-
-Interactor genes: At4g12800
-KEGG pathways involved:
- - id: ath00195, name: Photosynthesis
- - id: ath01100, name: Metabolic pathways
-Related GO terms:
- + id: GO:0015979, term: photosynthesis
- + id: GO:0007165, term: signal transduction
-
-
-New interaction network
-
-Interactor genes: At5g64040
-KEGG pathways involved:
- - id: ath00195, name: Photosynthesis
- - id: ath01100, name: Metabolic pathways
-Related GO terms:
- + id: GO:0015979, term: photosynthesis
-
-
-New interaction network
-
-Interactor genes: At1g29660
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0016042, term: lipid catabolic process
- + id: GO:0009627, term: systemic acquired resistance
-
-
-New interaction network
-
-Interactor genes: At1g64500
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0051017, term: actin filament bundle assembly
- + id: GO:0009902, term: chloroplast relocation
-
-
-New interaction network
-
-Interactor genes: At2g20670
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0051301, term: cell division
- + id: GO:0007059, term: chromosome segregation
-
-
-New interaction network
-
-Interactor genes: At2g03750
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0051923, term: sulfation
-
-
-New interaction network
-
-Interactor genes: At3g47470
-KEGG pathways involved:
- - id: ath00196, name: Photosynthesis - antenna proteins
- - id: ath01100, name: Metabolic pathways
-Related GO terms:
- + id: GO:0009768, term: photosynthesis, light harvesting in photosystem I
- + id: GO:0018298, term: protein-chromophore linkage
- + id: GO:0009409, term: response to cold
- + id: GO:0009644, term: response to high light intensity
- + id: GO:0080167, term: response to karrikin
- + id: GO:0009416, term: response to light stimulus
- + id: GO:0009645, term: response to low light intensity stimulus
- + id: GO:0009765, term: photosynthesis, light harvesting
-
-
-New interaction network
-
-Interactor genes: At5g64410
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0015031, term: protein transport
- + id: GO:0080167, term: response to karrikin
- + id: GO:0055085, term: transmembrane transport
- + id: GO:0071555, term: cell wall organization
- + id: GO:0030244, term: cellulose biosynthetic process
-
-
-New interaction network
-
-Interactor genes: At1g15980
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0009773, term: photosynthetic electron transport in photosystem I
- + id: GO:0006412, term: translation
-
-
-New interaction network
-
-Interactor genes: At1g12250
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0006888, term: endoplasmic reticulum to Golgi vesicle-mediated transport
- + id: GO:0006890, term: retrograde vesicle-mediated transport, Golgi to endoplasmic reticulum
-
-
-New interaction network
-
-Interactor genes: At2g21210
-KEGG pathways involved:
- - id: ath04075, name: Plant hormone signal transduction
-Related GO terms:
- + id: GO:0009733, term: response to auxin
- + id: GO:0010200, term: response to chitin
-
-
-New interaction network
-
-Interactor genes: At4g28660
-KEGG pathways involved:
- - id: ath00195, name: Photosynthesis
- - id: ath01100, name: Metabolic pathways
-Related GO terms:
- + id: GO:0015979, term: photosynthesis
-
-
-New interaction network
-
-Interactor genes: At1g52230
-KEGG pathways involved:
- - id: ath00195, name: Photosynthesis
- - id: ath01100, name: Metabolic pathways
-Related GO terms:
- + id: GO:0015979, term: photosynthesis
-
-
-New interaction network
-
-Interactor genes: At3g18890
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0015031, term: protein transport
-
-
-New interaction network
-
-Interactor genes: At2g04039
-KEGG pathways involved:
-Related GO terms:
-
-
-New interaction network
-
-Interactor genes: At3g48420
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0006284, term: base-excision repair
- + id: GO:0006665, term: sphingolipid metabolic process
-
-
-New interaction network
-
-Interactor genes: At5g07020
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0061635, term: regulation of protein complex stability
- + id: GO:0006457, term: protein folding
-
-
-New interaction network
-
-Interactor genes: At2g34430
-KEGG pathways involved:
- - id: aly00196, name: Photosynthesis - antenna proteins
- - id: aly01100, name: Metabolic pathways
-Related GO terms:
- + id: GO:0009765, term: photosynthesis, light harvesting
- + id: GO:0018298, term: protein-chromophore linkage
- + id: GO:0009768, term: photosynthesis, light harvesting in photosystem I
- + id: GO:0009416, term: response to light stimulus
-
-
-New interaction network
-
-Interactor genes: At1g18060
-KEGG pathways involved:
-Related GO terms:
-
-
-New interaction network
-
-Interactor genes: At2g30600
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0016567, term: protein ubiquitination
- + id: GO:0006355, term: regulation of transcription, DNA-templated
-
-
-New interaction network
-
-Interactor genes: At1g65490
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0015031, term: protein transport
- + id: GO:0071456, term: cellular response to hypoxia
- + id: GO:0009617, term: response to bacterium
-
-
-New interaction network
-
-Interactor genes: At3g21670
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0042128, term: nitrate assimilation
- + id: GO:0010167, term: response to nitrate
- + id: GO:0006207, term: 'de novo' pyrimidine nucleobase biosynthetic process
- + id: GO:0044205, term: 'de novo' UMP biosynthetic process
- + id: GO:0006520, term: cellular amino acid metabolic process
-
-
-New interaction network
-
-Interactor genes: At4g27260
-KEGG pathways involved:
- - id: ath04075, name: Plant hormone signal transduction
-Related GO terms:
- + id: GO:0010252, term: auxin homeostasis
- + id: GO:0010120, term: camalexin biosynthetic process
- + id: GO:1901183, term: positive regulation of camalexin biosynthetic process
- + id: GO:0009733, term: response to auxin
-
-
-New interaction network
-
-Interactor genes: At1g55480
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0015979, term: photosynthesis
- + id: GO:0010207, term: photosystem II assembly
- + id: GO:0010206, term: photosystem II repair
- + id: GO:0009644, term: response to high light intensity
- + id: GO:0009416, term: response to light stimulus
- + id: GO:0009611, term: response to wounding
-
-
-New interaction network
-
-Interactor genes: At1g29395
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0070417, term: cellular response to cold
- + id: GO:0042631, term: cellular response to water deprivation
- + id: GO:0009631, term: cold acclimation
- + id: GO:0009737, term: response to abscisic acid
-
-
-New interaction network
-
-Interactor genes: At1g70820
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0005975, term: carbohydrate metabolic process
-
-
-New interaction network
-
-Interactor genes: At3g26740
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0007623, term: circadian rhythm
-
-
-New interaction network
-
-Interactor genes: At1g64680
-KEGG pathways involved:
-Related GO terms:
-
-
-New interaction network
-
-Interactor genes: At2g25200
-KEGG pathways involved:
-Related GO terms:
-
-
-New interaction network
-
-Interactor genes: At4g21280
-KEGG pathways involved:
- - id: ath00195, name: Photosynthesis
- - id: ath01100, name: Metabolic pathways
-Related GO terms:
- + id: GO:0009767, term: photosynthetic electron transport chain
- + id: GO:0015979, term: photosynthesis
-
-
-New interaction network
-
-Interactor genes: At1g06680
-KEGG pathways involved:
- - id: ath00195, name: Photosynthesis
- - id: ath01100, name: Metabolic pathways
-Related GO terms:
- + id: GO:0042742, term: defense response to bacterium
- + id: GO:0019684, term: photosynthesis, light reaction
- + id: GO:0015979, term: photosynthesis
-
-
-New interaction network
-
-Interactor genes: At2g43550
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0050832, term: defense response to fungus
- + id: GO:0031640, term: killing of cells of other organism
- + id: GO:0009405, term: obsolete pathogenesis
-
-
-New interaction network
-
-Interactor genes: At3g02730
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0045454, term: cell redox homeostasis
- + id: GO:0043086, term: negative regulation of catalytic activity
- + id: GO:0043085, term: positive regulation of catalytic activity
- + id: GO:0006109, term: regulation of carbohydrate metabolic process
- + id: GO:0009642, term: response to light intensity
-
-
-New interaction network
-
-Interactor genes: At1g42970
-KEGG pathways involved:
- - id: ath00710, name: Carbon fixation in photosynthetic organisms
- - id: ath01100, name: Metabolic pathways
- - id: ath01200, name: Carbon metabolism
-Related GO terms:
- + id: GO:0006006, term: glucose metabolic process
- + id: GO:0019253, term: reductive pentose-phosphate cycle
- + id: GO:0046686, term: response to cadmium ion
- + id: GO:0009409, term: response to cold
- + id: GO:0009416, term: response to light stimulus
- + id: GO:0009744, term: response to sucrose
- + id: GO:0009073, term: aromatic amino acid family biosynthetic process
- + id: GO:0008652, term: cellular amino acid biosynthetic process
- + id: GO:0009423, term: chorismate biosynthetic process
-
-
-New interaction network
-
-Interactor genes: At2g39470
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0015979, term: photosynthesis
- + id: GO:0010029, term: regulation of seed germination
-
-
-New interaction network
-
-Interactor genes: At1g77490
-KEGG pathways involved:
- - id: ath00053, name: Ascorbate and aldarate metabolism
- - id: ath00480, name: Glutathione metabolism
- - id: ath01100, name: Metabolic pathways
-Related GO terms:
- + id: GO:0034599, term: cellular response to oxidative stress
- + id: GO:0010019, term: chloroplast-nucleus signaling pathway
- + id: GO:0009631, term: cold acclimation
- + id: GO:0042744, term: hydrogen peroxide catabolic process
- + id: GO:0071588, term: hydrogen peroxide mediated signaling pathway
- + id: GO:0000302, term: response to reactive oxygen species
- + id: GO:0006979, term: response to oxidative stress
-
-
-New interaction network
-
-Interactor genes: At5g01015
-KEGG pathways involved:
-Related GO terms:
-
-
-New interaction network
-
-Interactor genes: At1g14150
-KEGG pathways involved:
- - id: ath00195, name: Photosynthesis
- - id: ath01100, name: Metabolic pathways
-Related GO terms:
- + id: GO:0009767, term: photosynthetic electron transport chain
- + id: GO:0015979, term: photosynthesis
-
-
-New interaction network
-
-Interactor genes: At1g64720
-KEGG pathways involved:
-Related GO terms:
-
-
-New interaction network
-
-Interactor genes: At3g56940
-KEGG pathways involved:
- - id: ath00860, name: Porphyrin and chlorophyll metabolism
- - id: ath01100, name: Metabolic pathways
- - id: ath01110, name: Biosynthesis of secondary metabolites
-Related GO terms:
- + id: GO:0015995, term: chlorophyll biosynthetic process
- + id: GO:0009658, term: chloroplast organization
- + id: GO:0015979, term: photosynthesis
- + id: GO:1901401, term: regulation of tetrapyrrole metabolic process
-
-
-New interaction network
-
-Interactor genes: At4g28030
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0006457, term: protein folding
-
-
-New interaction network
-
-Interactor genes: At1g78370
-KEGG pathways involved:
- - id: ath00480, name: Glutathione metabolism
- - id: ath01100, name: Metabolic pathways
-Related GO terms:
- + id: GO:0006749, term: glutathione metabolic process
- + id: GO:0040008, term: regulation of growth
- + id: GO:2000030, term: regulation of response to red or far red light
- + id: GO:0009629, term: response to gravity
- + id: GO:0009407, term: toxin catabolic process
-
-
-New interaction network
-
-Interactor genes: At1g23205
-KEGG pathways involved:
-Related GO terms:
-
-
-New interaction network
-
-Interactor genes: At1g68010
-KEGG pathways involved:
- - id: ath00260, name: Glycine, serine and threonine metabolism
- - id: ath00630, name: Glyoxylate and dicarboxylate metabolism
- - id: ath01100, name: Metabolic pathways
- - id: ath01110, name: Biosynthesis of secondary metabolites
- - id: ath01200, name: Carbon metabolism
-Related GO terms:
- + id: GO:0071482, term: cellular response to light stimulus
- + id: GO:0042631, term: cellular response to water deprivation
- + id: GO:0009854, term: oxidative photosynthetic carbon pathway
- + id: GO:0009873, term: ethylene-activated signaling pathway
-
-
-New interaction network
-
-Interactor genes: At3g61470
-KEGG pathways involved:
- - id: ath00196, name: Photosynthesis - antenna proteins
- - id: ath01100, name: Metabolic pathways
-Related GO terms:
- + id: GO:0009768, term: photosynthesis, light harvesting in photosystem I
- + id: GO:0018298, term: protein-chromophore linkage
- + id: GO:0009409, term: response to cold
- + id: GO:0009644, term: response to high light intensity
- + id: GO:0009416, term: response to light stimulus
- + id: GO:0009645, term: response to low light intensity stimulus
- + id: GO:0009765, term: photosynthesis, light harvesting
-
-
-New interaction network
-
-Interactor genes: At4g28750
-KEGG pathways involved:
- - id: ath00195, name: Photosynthesis
- - id: ath01100, name: Metabolic pathways
-Related GO terms:
- + id: GO:0015979, term: photosynthesis
-
-
-New interaction network
-
-Interactor genes: At5g24210
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0006629, term: lipid metabolic process
-
-
-New interaction network
-
-Interactor genes: At3g54890
-KEGG pathways involved:
- - id: ath00196, name: Photosynthesis - antenna proteins
- - id: ath01100, name: Metabolic pathways
-Related GO terms:
- + id: GO:0009768, term: photosynthesis, light harvesting in photosystem I
- + id: GO:0018298, term: protein-chromophore linkage
- + id: GO:0009409, term: response to cold
- + id: GO:0009644, term: response to high light intensity
- + id: GO:0009416, term: response to light stimulus
- + id: GO:0009645, term: response to low light intensity stimulus
- + id: GO:0009765, term: photosynthesis, light harvesting
- + id: GO:0006396, term: RNA processing
-
-
-New interaction network
-
-Interactor genes: At1g72610
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0006400, term: tRNA modification
-
-
-New interaction network
-
-Interactor genes: At3g08940
-KEGG pathways involved:
- - id: ath00196, name: Photosynthesis - antenna proteins
- - id: ath01100, name: Metabolic pathways
-Related GO terms:
- + id: GO:0009768, term: photosynthesis, light harvesting in photosystem I
- + id: GO:0018298, term: protein-chromophore linkage
- + id: GO:0009416, term: response to light stimulus
- + id: GO:0009765, term: photosynthesis, light harvesting
- + id: GO:0006865, term: amino acid transport
-
-
-New interaction network
-
-Interactor genes: At5g62280
-KEGG pathways involved:
-Related GO terms:
-
-
-New interaction network
-
-Interactor genes: At5g18670
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0000272, term: polysaccharide catabolic process
- + id: GO:0042026, term: protein refolding
-
-
-New interaction network
-
-Interactor genes: At1g28330
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0007275, term: multicellular organism development
- + id: GO:0009750, term: response to fructose
- + id: GO:0009749, term: response to glucose
- + id: GO:0009744, term: response to sucrose
-
-
-New interaction network
-
-Interactor genes: At4g33660
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0050832, term: defense response to fungus
- + id: GO:0031640, term: killing of cells of other organism
-
-
-New interaction network
-
-Interactor genes: At3g63140, At1g09340
+Interactor genes:
+ · AGI: At3g63140
+ · AGI: At1g09340
 KEGG pathways involved:
 Related GO terms:
  + id: GO:0009658, term: chloroplast organization
@@ -658,184 +22,93 @@ Related GO terms:
 
 New interaction network
 
-Interactor genes: At3g46780
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0007623, term: circadian rhythm
-
-
-New interaction network
-
-Interactor genes: At2g33830
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0007275, term: multicellular organism development
- + id: GO:0009617, term: response to bacterium
-
-
-New interaction network
-
-Interactor genes: At4g02530
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0010206, term: photosystem II repair
-
-
-New interaction network
-
-Interactor genes: At1g13930
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0010115, term: regulation of abscisic acid biosynthetic process
- + id: GO:0046686, term: response to cadmium ion
- + id: GO:0009408, term: response to heat
- + id: GO:0009651, term: response to salt stress
- + id: GO:0007165, term: signal transduction
-
-
-New interaction network
-
-Interactor genes: At1g76100
-KEGG pathways involved:
- - id: ath00195, name: Photosynthesis
- - id: ath01100, name: Metabolic pathways
-Related GO terms:
-
-
-New interaction network
-
-Interactor genes: At1g08380
-KEGG pathways involved:
- - id: ath00195, name: Photosynthesis
- - id: ath01100, name: Metabolic pathways
-Related GO terms:
- + id: GO:0009768, term: photosynthesis, light harvesting in photosystem I
- + id: GO:0009767, term: photosynthetic electron transport chain
- + id: GO:0010028, term: xanthophyll cycle
-
-
-New interaction network
-
-Interactor genes: At2g38210
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0006520, term: cellular amino acid metabolic process
- + id: GO:0042823, term: pyridoxal phosphate biosynthetic process
- + id: GO:0008615, term: pyridoxine biosynthetic process
-
-
-New interaction network
-
-Interactor genes: At3g05730
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0050832, term: defense response to fungus
- + id: GO:0031640, term: killing of cells of other organism
-
-
-New interaction network
-
-Interactor genes: At5g48490
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0009627, term: systemic acquired resistance
- + id: GO:0042732, term: D-xylose metabolic process
-
-
-New interaction network
-
-Interactor genes: At1g20440
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0009631, term: cold acclimation
- + id: GO:0050832, term: defense response to fungus
- + id: GO:0010286, term: heat acclimation
- + id: GO:0009737, term: response to abscisic acid
- + id: GO:0009409, term: response to cold
- + id: GO:0006970, term: response to osmotic stress
- + id: GO:0009414, term: response to water deprivation
- + id: GO:0009415, term: response to water
- + id: GO:0006284, term: base-excision repair
-
-
-New interaction network
-
-Interactor genes: At5g02160
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0032055, term: negative regulation of translation in response to stress
-
-
-New interaction network
-
-Interactor genes: At2g05540
-KEGG pathways involved:
-Related GO terms:
-
-
-New interaction network
-
-Interactor genes: At2g43100
-KEGG pathways involved:
- - id: ath00290, name: Valine, leucine and isoleucine biosynthesis
- - id: ath00966, name: Glucosinolate biosynthesis
- - id: ath01100, name: Metabolic pathways
- - id: ath01110, name: Biosynthesis of secondary metabolites
- - id: ath01210, name: 2-Oxocarboxylic acid metabolism
-Related GO terms:
- + id: GO:0009082, term: branched-chain amino acid biosynthetic process
- + id: GO:0019761, term: glucosinolate biosynthetic process
- + id: GO:0009098, term: leucine biosynthetic process
-
-
-New interaction network
-
-Interactor genes: At5g49360
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0031222, term: arabinan catabolic process
- + id: GO:0010214, term: seed coat development
- + id: GO:0045493, term: xylan catabolic process
- + id: GO:0005975, term: carbohydrate metabolic process
-
-
-New interaction network
-
-Interactor genes: At1g30380
-KEGG pathways involved:
- - id: ath00195, name: Photosynthesis
- - id: ath01100, name: Metabolic pathways
-Related GO terms:
- + id: GO:0015979, term: photosynthesis
-
-
-New interaction network
-
-Interactor genes: At1g78460
-KEGG pathways involved:
-Related GO terms:
-
-
-New interaction network
-
-Interactor genes: At3g16140
-KEGG pathways involved:
- - id: ath00195, name: Photosynthesis
- - id: ath01100, name: Metabolic pathways
-Related GO terms:
- + id: GO:0015979, term: photosynthesis
-
-
-New interaction network
-
-Interactor genes: At4g12310
-KEGG pathways involved:
-Related GO terms:
-
-
-New interaction network
-
-Interactor genes: At5g01530, At2g34420, At1g15820, At1g29920, At4g09010, At3g16250, At2g43010, At3g45780, At1g14280, At3g62550, At4g21210, At2g45170, At5g48300, At3g28220, At1g80440, At4g39710, At4g02770, At4g22890, At1g69870, At1g74730, At1g29910, At1g03130, At5g38990, At4g17090, At4g04640, At3g61260, At4g37610, At3g48360, At3g50820, At3g01500, At3g55800, At5g14740, At3g62410, At2g39730, At5g35630, At5g43750, At4g38840, At2g47930, At3g47340, At1g02640, At1g76080, At5g15850, At2g30950, At5g35170, At3g54050, At1g68570, At2g26080, At4g33010, At2g18700, At1g71030, At2g26740, At5g11070, At5g22920, At1g61520, At3g21870, At1g54040, At5g20250, At1g12900, At3g27690, At5g54270, At5g17300, At2g46340, At4g28780, At4g37800, At1g20020, At4g37980, At5g04140, At3g49160, At2g17880, At1g12780, At1g25230, At5g65010, At4g19170, At1g37130, At1g11850, At2g01890, At2g21330, At5g05690, At1g23740, At4g12830, At1g32220, At1g07010, At4g17460, At4g09650, At4g05180, At2g13360
+Interactor genes:
+ · AGI: At5g01530
+ · AGI: At2g34420
+ · AGI: At1g15820
+ · AGI: At1g29920
+ · AGI: At4g09010
+ · AGI: At3g16250
+ · AGI: At2g43010
+ · AGI: At3g45780
+ · AGI: At1g14280
+ · AGI: At3g62550
+ · AGI: At4g21210
+ · AGI: At2g45170
+ · AGI: At5g48300
+ · AGI: At3g28220
+ · AGI: At1g80440
+ · AGI: At4g39710
+ · AGI: At4g02770
+ · AGI: At4g22890
+ · AGI: At1g69870
+ · AGI: At1g74730
+ · AGI: At1g29910
+ · AGI: At1g03130
+ · AGI: At5g38990
+ · AGI: At4g17090
+ · AGI: At4g04640
+ · AGI: At3g61260
+ · AGI: At4g37610
+ · AGI: At3g48360
+ · AGI: At3g50820
+ · AGI: At3g01500
+ · AGI: At3g55800
+ · AGI: At5g14740
+ · AGI: At3g62410
+ · AGI: At2g39730
+ · AGI: At5g35630
+ · AGI: At5g43750
+ · AGI: At4g38840
+ · AGI: At2g47930
+ · AGI: At3g47340
+ · AGI: At1g02640
+ · AGI: At1g76080
+ · AGI: At5g15850
+ · AGI: At2g30950
+ · AGI: At5g35170
+ · AGI: At3g54050
+ · AGI: At1g68570
+ · AGI: At2g26080
+ · AGI: At4g33010
+ · AGI: At2g18700
+ · AGI: At1g71030
+ · AGI: At2g26740
+ · AGI: At5g11070
+ · AGI: At5g22920
+ · AGI: At1g61520
+ · AGI: At3g21870
+ · AGI: At1g54040
+ · AGI: At5g20250
+ · AGI: At1g12900
+ · AGI: At3g27690
+ · AGI: At5g54270
+ · AGI: At5g17300
+ · AGI: At2g46340
+ · AGI: At4g28780
+ · AGI: At4g37800
+ · AGI: At1g20020
+ · AGI: At4g37980
+ · AGI: At5g04140
+ · AGI: At3g49160
+ · AGI: At2g17880
+ · AGI: At1g12780
+ · AGI: At1g25230
+ · AGI: At5g65010
+ · AGI: At4g19170
+ · AGI: At1g37130
+ · AGI: At1g11850
+ · AGI: At2g01890
+ · AGI: At2g21330
+ · AGI: At5g05690
+ · AGI: At1g23740
+ · AGI: At4g12830
+ · AGI: At1g32220
+ · AGI: At1g07010
+ · AGI: At4g17460
+ · AGI: At4g09650
+ · AGI: At4g05180
+ · AGI: At2g13360
 KEGG pathways involved:
  - id: ath00196, name: Photosynthesis - antenna proteins
  - id: ath01100, name: Metabolic pathways
@@ -843,13 +116,15 @@ KEGG pathways involved:
  - id: ath00053, name: Ascorbate and aldarate metabolism
  - id: ath00480, name: Glutathione metabolism
  - id: ath04075, name: Plant hormone signal transduction
+ - id: ath03015, name: mRNA surveillance pathway
  - id: ath04136, name: Autophagy - other
  - id: ath00500, name: Starch and sucrose metabolism
  - id: ath00520, name: Amino sugar and nucleotide sugar metabolism
  - id: ath01110, name: Biosynthesis of secondary metabolites
  - id: ath01250, name: Biosynthesis of nucleotide sugars
- - id: ath00195, name: Photosynthesis
  - id: ath00190, name: Oxidative phosphorylation
+ - id: ath04145, name: Phagosome
+ - id: ath00195, name: Photosynthesis
  - id: ath00910, name: Nitrogen metabolism
  - id: ath00710, name: Carbon fixation in photosynthetic organisms
  - id: ath01200, name: Carbon metabolism
@@ -857,21 +132,27 @@ KEGG pathways involved:
  - id: ath00250, name: Alanine, aspartate and glutamate metabolism
  - id: ath00630, name: Glyoxylate and dicarboxylate metabolism
  - id: ath01230, name: Biosynthesis of amino acids
- - id: ath00230, name: Purine metabolism
- - id: ath00730, name: Thiamine metabolism
- - id: ath01240, name: Biosynthesis of cofactors
+ - id: ath04016, name: MAPK signaling pathway - plant
  - id: ath00010, name: Glycolysis / Gluconeogenesis
  - id: ath00030, name: Pentose phosphate pathway
  - id: ath00051, name: Fructose and mannose metabolism
+ - id: ath00073, name: Cutin, suberine and wax biosynthesis
+ - id: ath00230, name: Purine metabolism
+ - id: ath00730, name: Thiamine metabolism
+ - id: ath01240, name: Biosynthesis of cofactors
  - id: ath00260, name: Glycine, serine and threonine metabolism
+ - id: ath03040, name: Spliceosome
+ - id: ath03008, name: Ribosome biogenesis in eukaryotes
+ - id: ath04712, name: Circadian rhythm - plant
  - id: ath04120, name: Ubiquitin mediated proteolysis
  - id: ath00052, name: Galactose metabolism
- - id: ath04712, name: Circadian rhythm - plant
+ - id: ath03010, name: Ribosome
  - id: ath00940, name: Phenylpropanoid biosynthesis
  - id: ath00620, name: Pyruvate metabolism
  - id: ath00740, name: Riboflavin metabolism
  - id: ath00906, name: Carotenoid biosynthesis
  - id: ath00905, name: Brassinosteroid biosynthesis
+ - id: ath00562, name: Inositol phosphate metabolism
  - id: ath04146, name: Peroxisome
 Related GO terms:
  + id: GO:0009768, term: photosynthesis, light harvesting in photosystem I
@@ -885,7 +166,6 @@ Related GO terms:
  + id: GO:0034599, term: cellular response to oxidative stress
  + id: GO:0042744, term: hydrogen peroxide catabolic process
  + id: GO:0000302, term: response to reactive oxygen species
- + id: GO:0006979, term: response to oxidative stress
  + id: GO:0009773, term: photosynthetic electron transport in photosystem I
  + id: GO:0006355, term: regulation of transcription, DNA-templated
  + id: GO:0009704, term: de-etiolation
@@ -931,9 +211,9 @@ Related GO terms:
  + id: GO:0035556, term: intracellular signal transduction
  + id: GO:0042128, term: nitrate assimilation
  + id: GO:0015706, term: nitrate transport
+ + id: GO:0006139, term: nucleobase-containing compound metabolic process
  + id: GO:0090391, term: granum assembly
  + id: GO:0010027, term: thylakoid membrane organization
- + id: GO:0006139, term: nucleobase-containing compound metabolic process
  + id: GO:0009733, term: response to auxin
  + id: GO:0010038, term: response to metal ion
  + id: GO:0000024, term: maltose biosynthetic process
@@ -957,7 +237,6 @@ Related GO terms:
  + id: GO:0009651, term: response to salt stress
  + id: GO:0009611, term: response to wounding
  + id: GO:0010182, term: sugar mediated signaling pathway
- + id: GO:0006857, term: oligopeptide transport
  + id: GO:0010205, term: photoinhibition
  + id: GO:0019684, term: photosynthesis, light reaction
  + id: GO:0010207, term: photosystem II assembly
@@ -989,6 +268,7 @@ Related GO terms:
  + id: GO:0006542, term: glutamine biosynthetic process
  + id: GO:0046686, term: response to cadmium ion
  + id: GO:0006807, term: nitrogen compound metabolic process
+ + id: GO:0006979, term: response to oxidative stress
  + id: GO:0080167, term: response to karrikin
  + id: GO:0006529, term: asparagine biosynthetic process
  + id: GO:0009063, term: cellular amino acid catabolic process
@@ -1001,11 +281,11 @@ Related GO terms:
  + id: GO:0031222, term: arabinan catabolic process
  + id: GO:0045493, term: xylan catabolic process
  + id: GO:0045454, term: cell redox homeostasis
+ + id: GO:0010286, term: heat acclimation
  + id: GO:0009414, term: response to water deprivation
  + id: GO:0009909, term: regulation of flower development
  + id: GO:0000398, term: mRNA splicing, via spliceosome
  + id: GO:0009658, term: chloroplast organization
- + id: GO:0007275, term: multicellular organism development
  + id: GO:0048564, term: photosystem I assembly
  + id: GO:0010206, term: photosystem II repair
  + id: GO:0030163, term: protein catabolic process
@@ -1016,13 +296,14 @@ Related GO terms:
  + id: GO:0009142, term: nucleoside triphosphate biosynthetic process
  + id: GO:0005985, term: sucrose metabolic process
  + id: GO:0010336, term: gibberellic acid homeostasis
+ + id: GO:0006857, term: oligopeptide transport
  + id: GO:0019464, term: glycine decarboxylation via glycine cleavage system
  + id: GO:0006546, term: glycine catabolic process
  + id: GO:0016311, term: dephosphorylation
  + id: GO:0005992, term: trehalose biosynthetic process
  + id: GO:0009718, term: anthocyanin-containing compound biosynthetic process
- + id: GO:0010023, term: proanthocyanidin biosynthetic process
  + id: GO:0030154, term: cell differentiation
+ + id: GO:0010023, term: proanthocyanidin biosynthetic process
  + id: GO:1902456, term: regulation of stomatal opening
  + id: GO:0006511, term: ubiquitin-dependent protein catabolic process
  + id: GO:0009644, term: response to high light intensity
@@ -1094,14 +375,5 @@ Related GO terms:
  + id: GO:0048467, term: gynoecium development
  + id: GO:0009767, term: photosynthetic electron transport chain
  + id: GO:0019265, term: glycine biosynthetic process, by transamination of glyoxylate
-
-
-New interaction network
-
-Interactor genes: At5g58260
-KEGG pathways involved:
-Related GO terms:
- + id: GO:0050832, term: defense response to fungus
- + id: GO:0010258, term: NADH dehydrogenase complex (plastoquinone) assembly
 
 

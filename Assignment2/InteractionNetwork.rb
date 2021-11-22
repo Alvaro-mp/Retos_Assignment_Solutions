@@ -78,6 +78,15 @@ class InteractionNetwork
   # @return [InteractionNetwork] an instance of InteractionNetwork
   def initialize(params={})
     @interactors = params.fetch(:interactors)
+    
+    abort_msg = "Error while creating InteractionNetwork: \"interactors\" parameter must be an Array."
+    abort(abort_msg) unless @interactors.is_a? Array
+    abort_msg = "Error while creating InteractionNetwork: \"interactors\" Array elements must be all Strings."
+    abort(abort_msg) unless @interactors.all? { |gene| gene.class == String }
+    
+    # ensure format of interactors for comparison purposes
+    @interactors = @interactors.map{|gene| gene.capitalize()}
+    
     @depth = params.fetch(:depth, nil)
     @cutoff_score = params.fetch(:cutoff_score, nil)
     @annotations = params.fetch(:anotations, [])
@@ -137,6 +146,9 @@ class InteractionNetwork
     # I only want to find the interactor genes from the original list, so I transform each network to the intersection
     # of itself and the original list
     networks = networks.map{|network| network & gene_list}
+    
+    # reject the networks with 0 or 1 interactors as they cannot be considered networks
+    networks = networks.reject{|network| network.length < 2}
     
     interaction_networks = []
     
@@ -210,7 +222,7 @@ class InteractionNetwork
   end
 
 
-  # funtion that retrieves the available interactors in a set of databases for a specific gene according to a minimum
+  # Function that retrieves the available interactors in a set of databases for a specific gene according to a minimum
   # intact-score
 
   # @param gene [String] the code of the gene as a String
@@ -259,81 +271,155 @@ class InteractionNetwork
   end
 
 
+  # Function that retrieves the Annotation for a particular gene
+
+  # @param gene [String] the code of the gene as a String
+  # @return [Annotation] Annotation associated to the provided gene. Returns nil if the gene does not belong
+  # to the InteractionNetwork
+  def get_annotation_for(gene)
+    
+    abort_msg = "Error: annotation not retrieved for #{gene}. Please provide the gene code as String."
+    abort(abort_msg) unless gene.is_a?(String)
+    
+    # standardize format of the String
+    gene = gene.capitalize()
+    
+    abort_msg = "Error: annotation not retrieved. #{gene} not is not an interactor in the network #{self}."
+    abort(abort_msg) unless self.interactors.include?(gene)
+    
+    self.annotations.each{|annotation|
+      return annotation if annotation.AGI_locus_code == gene
+      }
+      
+    return
+    
+  end
+  
+  
   # function that annotates the genes of a InteractionNetwork with the associated KEGG pathways and GO terms
   
   # @return
   def annotate()
-  
-    # retrieve the Gene Ontology
-    go_response = fetch("www.geneontology.org/ontology/go.obo")
-    
-    unless go_response
-      puts "It was not possible to retrieve the Gene Ontology. Stop execution and retry"
-    else
-      gene_ontology = go_response.body
-    end
-    
     
     self.interactors.each{|gene|
+      # DEBUG PRINT
+      puts "Starting annotation for gene #{gene}"
 
-      # instanciate new Annotation for current gene
-      annotation = Annotation.new(AGI_locus_code: gene)
+      # retrieve Annotation for the current gene and create a new Annotation if there is none
+      annotation = self.get_annotation_for(gene)
+      annotation ||= Annotation.new(AGI_locus_code: gene)
 
-      uniprot_response = fetch("http://togows.org/entry/ebi-uniprot/#{gene}")
+      # get Uniprot information for the current gene in JSON format
+      uniprot_response = fetch("http://togows.org/entry/ebi-uniprot/#{gene}.json")
 
-      if uniprot_response
-        # get all GO ids without duplicates
-        go_ids = uniprot_response.body.scan(/GO:[\d]{7}/)
-        go_ids = go_ids.uniq
-        # get the KEGG id
-        /KEGG;(?<kegg_id>.*);/ =~ uniprot_response.body
-        kegg_id = kegg_id.strip
+      # if there is any errors with JSON format
+      unless uniprot_response
+        puts "It was not possible to retrieve uniprot information for gene #{gene} in JSON format. Trying again in default format"
+        # get Uniprot information for the current gene in default format
+        uniprot_response = fetch("http://togows.org/entry/ebi-uniprot/#{gene}")
+        
+        # if there is any errors with the default format
+        unless uniprot_response
+          puts "It was not possible to retrieve uniprot information for gene #{gene} at all. Skipping"
+          # store current annotation and skip to the next gene
+          self.annotations |= [annotation]
+          next
+        
+        # if there is response with the default format but not with JSON format
+        else
+          # scan for KEGG ids and get unique values
+          kegg_ids = uniprot_response.body.scan(/KEGG; (.*);/).uniq
+          # the "scan" method returns something like [["id_1"],["id_2"],...] and I need something like ["id_1", "id_2", ...]
+          kegg_ids = kegg_ids.map{|id_arr| id_arr[0].strip}
+          # reject the ids that do not start by "ath" (species filtering)
+          kegg_ids = kegg_ids.reject{|id| id.split(":")[0] != "ath"}
+          
+          # get all GO terms without duplicates
+          go_terms = uniprot_response.body.scan(/GO:[\d]{7};.*;/)
+          go_terms = go_terms.uniq
+          
+          # if there is any GO term in the default response
+          unless go_terms.empty?
+            
+            go_terms.each{|go_term|
+              # retrieve GO information from each match
+              go_id = go_term.split(";")[0]
+              go_namespace = go_term.split(";")[1].strip.split(":")[0]
+              go_termname = go_term.split(";")[1].strip.split(":")[1]
+              
+              # add GO term only if it belongs to the 'biological process' part of the Ontology
+              if go_namespace == 'P'
+                annotation.add_GO(go_id, go_termname) 
+              end
+              }
+            
+          # if there is not GO terms in the default response
+          else
+            puts "There were no GO terms related to gene #{gene}"
+          end
 
-        # get all pathways from the KEGG database for the current gene
+        end
+        
+      # if there is response with the JSON format (default format ha not been requested)
+      else
+        uniprot_data = JSON.parse(uniprot_response.body)
+        kegg_ids = []
+        uniprot_data[0]['dr']['KEGG'].each {|entry|
+          # only add ids that start with "ath" (species filtering)
+          kegg_ids << entry[0] if entry[0].split(":")[0] == "ath"
+          }
+        kegg_ids = kegg_ids.uniq
+        
+        # if there is any GO term in the JSON response
+        unless uniprot_data[0]['dr']['GO'] == nil
+          # retrieve GO information from the Uniprot data
+          uniprot_data[0]['dr']['GO'].each{|go_term|
+            go_id = go_term[0]
+            go_namespace = go_term[1].split(":")[0]
+            go_termname = go_term[1].split(":")[1]
+            # add GO term only if it belongs to the 'biological process' part of the Ontology
+            if go_namespace == 'P'
+              annotation.add_GO(go_id, go_termname) 
+            end
+            }
+          
+        # if there is not GO terms in the JSON response
+        else
+          puts "There were no GO terms related to gene #{gene}"
+        end
+      end
+
+      # in case any response format succeeded, there is an Array of kegg_ids for the gene, so
+      # I retrieve all pathways from the KEGG database for each kegg_id of the current gene
+      kegg_ids.each {|kegg_id|
+
         kegg_response = fetch("http://togows.org/entry/kegg-genes/#{kegg_id}.json")
+        
         if kegg_response
           kegg_data = JSON.parse(kegg_response.body)
           pathways = kegg_data[0]["pathways"]
-          pathways.keys.each{|key|
-            # add current pathway to the annotation of the current gene
-            annotation.add_KEGG(key, pathways[key])
-            }
-
-        else
-          puts "It was not possible to retrieve KEGG information for gene #{gene}"
-        end
-
-        go_ids.each{|go_id|
-          # pattern to find GO ids in the Gene Ontology and capture the required data
-          pattern = Regexp.new(/#{go_id}\nname:(?<term_name>.*)\nnamespace:(?<namespace>.*)\n/)
-          if pattern.match?(gene_ontology)
-            captures = pattern.match(gene_ontology).captures
-            term_name = captures[0].strip
-            namespace = captures[1].strip
-
-            # only add GO term if it belongs to the 'biological process' part
-            if namespace == "biological_process"
-              annotation.add_GO(go_id, term_name)
-            end
+          # if there is any pathway in the response
+          unless pathways == nil
+            pathways.keys.each{|key|
+              # add pathway to the annotation of the current gene
+              annotation.add_KEGG(key, pathways[key])
+              }
+  
           end
-          }
         
-        # After doing all this code I found an easier way to retrieve just the GO:IDs and GO:term_names
-        # from the ebi-uniprot response without requesting the whole Gene Ontology, a way that also included
-        # requesting the ebi-uniprot data in JSON format, but I don't have the time to implement it and the
-        # solution above works too. Nonetheless, my solution would be useful if we wanted to extract any other
-        # information from GO entries apart from IDs, Term names and Namespace.
-
-      else
-        puts "It was not possible to retrieve uniprot information for gene #{gene}"
-
-      end
-      
-      self.annotations << annotation
-      }   
+        # if there is not KEGG response
+        else
+          puts "It was not possible to retrieve KEGG pathways for id #{kegg_id} (gene #{gene})"
+        end
+      }
+    
+    # store current annotation
+    self.annotations |= [annotation]
+    
+    }   
 
   end
-  
+ 
   
   # function that outputs a report about a specific InteractionNetwork
   
@@ -352,7 +438,6 @@ class InteractionNetwork
     if file.is_a?(File)
       
       # variables that store the values to print
-      genes = self.interactors.join(", ")
       kegg_annot = []
       go_annot = []
   
@@ -367,7 +452,10 @@ class InteractionNetwork
       go_annot = go_annot.uniq
       
       # print data
-      file.write("Interactor genes: #{genes}\n")
+      file.write("Interactor genes:\n")
+      self.interactors.each {|gene|
+        file.write(" · AGI: #{gene}\n")
+        }
       
       file.write("KEGG pathways involved:\n")
       kegg_annot.each{|k_annot|

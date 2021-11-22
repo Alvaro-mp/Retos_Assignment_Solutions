@@ -39,23 +39,23 @@ class Annotation
   end
   
   
-   # Add a KEGG annotation to an existing Annotation object
+  # Add a KEGG annotation to an existing Annotation object if not already added
 
   # @param id [String] KEGG identifier of the pathway referenced
   # @param pathway [String] Name of the KEGG pathway
   # @return 
   def add_KEGG(id, pathway)
-    self.KEGG << {"id" => id, "pathway" => pathway}
+    self.KEGG |= [{"id" => id, "pathway" => pathway}]
   end
   
   
-  # Add a GO annotation to an existing Annotation object
+  # Add a GO annotation to an existing Annotation object if not already added
 
   # @param id [String] GO identifier of the term referenced
   # @param term_name [String] Name of the GO term
   # @return
   def add_GO(id, term)
-    self.GO << {"id" => id, "term_name" => term}
+    self.GO |= [{"id" => id, "term_name" => term}]
   end
   
 end
