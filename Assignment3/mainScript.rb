@@ -65,6 +65,13 @@ abort(abort_msg) unless File.file?(genefile)
 #########################################################################################################################
 
 
+# Get response from a url
+
+# @param url [String] the name of the url to search
+# @param headers [Hash] the encodings accepted
+# @param user [String] the user for login purposes
+# @param pass [String] the password for login purposes
+# @return [RestClient::Response] the response info, or 'false' if there was no response
 def fetch(url, headers = {accept: "*/*"}, user = "", pass="")
   response = RestClient::Request.execute({
     method: :get,
@@ -89,12 +96,23 @@ def fetch(url, headers = {accept: "*/*"}, user = "", pass="")
 end
 
 
+# Get the indices where the provided pattern is found on the provided sequence
+
+# @param string [String] the sequence in which look for matches
+# @param bio_re [Regexp] regular expresion with the pattern to search
+# @return [Array] An Array containing one Array for each match, which contains the start and end indices as Integers
 def get_target_indices(string, bio_re)
   # inspired from 'https://stackoverflow.com/questions/5241653/ruby-regex-match-and-get-positions-of'
   return string.enum_for(:scan, bio_re).map{ [Regexp.last_match.begin(0), Regexp.last_match.end(1)-1].map{|n| n.to_i} }
 end
 
+
+# Get the position numbers and strand indicated in an EMBL position statement
 # After using this function I found the Bio::Location class from BioRuby, which is much more powerful
+
+# @param position [String] the statement containing position information
+# @return [String, Array] The strand with posible values "+" or "-" and an Array containing one Array for each sequence
+# interval, which contains the start and end positions as Integers
 def get_location_info(position)
   strand = "+"
   strand = "-" if position.include?("complement")
