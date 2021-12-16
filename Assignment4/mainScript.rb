@@ -36,12 +36,16 @@ require 'rest-client'
 def print_time_remaining(start_time, current_loop, total_loops)
   remaining_loops = total_loops - current_loop
   current_time = Time.now.to_i
-  seconds_remaining = (current_time - start_time)/current_loop * remaining_loops
+  seconds_remaining = (current_time - start_time) * remaining_loops / current_loop 
   hours = seconds_remaining / 3600
   minutes = (seconds_remaining - 3600*hours ) / 60
   seconds = seconds_remaining - 3600*hours - 60*minutes
-  
-  puts "Estimated finishing time: #{hours}h, #{minutes} minutes and #{seconds} seconds"  
+
+  if hours > 0
+    puts "Estimated finishing time: #{hours}h, #{minutes} minutes and #{seconds} seconds"
+  else
+    puts "Estimated finishing time: #{minutes} minutes and #{seconds} seconds"
+  end
   
 end
 
@@ -109,11 +113,10 @@ factory_for_proteome = {proteome_1_file => proteome_1_factory, proteome_2_file =
 largest_proteome = opposite_file_to[shortest_proteome]
 
 # SEARCHING INFO PRINT
-progress_flag = 2
-puts "Starting ortholog candidate search. Producing feedback every #{progress_flag}% of progress."
+progress_flag = 5
+puts "\nStarting ortholog candidate search. Producing feedback every #{progress_flag}% of progress."
 
 # ITERATIVE CODE
-
 shortest_proteome_proteins = Bio::FlatFile.auto(shortest_proteome)
 
 # I declare some variables to output the search progress properly
@@ -122,41 +125,44 @@ starting_timestamp = Time.now.to_i
 
 # Loop over each entry of the shortest proteome
 shortest_proteome_proteins.each_entry do |protein|
-  
+
   # DEBUG PRINT
   current_protein_nb += 1
   percentage = current_protein_nb*100.0/total_seqs
   
   if percentage%progress_flag < 100.0/total_seqs
-     puts "#{percentage.round()}% of proteome evaluated " 
+    puts "Evaluated #{percentage.round()}% of proteome." 
     print_time_remaining(starting_timestamp, current_protein_nb, total_seqs)
   end
-  
+
   # Get current protein sequence
   sequence = protein.seq
 
   # Perform the query in the appropriate database
   report = factory_for_proteome[largest_proteome].query(">myseq\n#{sequence.to_s}")
-  
+
   unless report.hits().empty?
     
     # Get best hit
     best_hit = report.hits()[0]
-    
+
+    # In case the e-value of the best hit is significant, perform the reciprocal query
     if best_hit.evalue() < 0.01
-      # In case the e-value of the best hit is significant, perform the reciprocal query
-      report = factory_for_proteome[shortest_proteome].query(">myseq\n#{best_hit.target_seq}")
-      
+      # Remove hyphens from the target sequence to avoid annoying warnings
+      ungapped_target_seq = best_hit.target_seq.tr("-","")
+      # Perform reciprocal query
+      report = factory_for_proteome[shortest_proteome].query(">myseq\n#{ungapped_target_seq}")
+
       unless report.hits().empty?
         
         # Get the reciprocal best hit
         reciprocal_best_hit = report.hits()[0]
-        
+
         # In case the reciprocal best hit equals the protein in the current loop, add the protein and its best hit to the ortholog candidate hash
         if reciprocal_best_hit.definition == protein.definition
           ortholog_candidates[protein.entry_id] = best_hit.hit_id
         end
-        
+
       else
         puts "Strange behavior with protein #{protein.entry_id}. "\
           "Its best hit didn't return any hits."

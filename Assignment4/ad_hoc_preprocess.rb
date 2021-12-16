@@ -59,6 +59,8 @@ abort(abort_msg) unless File.file?(proteome_file)
 
 ######## TRANSALATING TAIR10 CDS TO AMINOACIDS ##########
 
+puts "Reading and translating arabidposis file..."
+
 arab_data = Bio::FlatFile.auto(arab_cds_file)
 arab_protein_data = File.new('TAIR10_proteome.fa', 'w')
 
@@ -71,16 +73,21 @@ arab_data.each_entry do |entry|
   nucleotide_seq.na
   amino_seq = nucleotide_seq.translate
   
-  arab_protein_data.write(">" + entry.definition + "\n")
-  arab_protein_data.write(amino_seq + "\n")
+  arab_protein_data.write("\n>" + entry.definition )
+  arab_protein_data.write("\n" + amino_seq)
   
 end
 
 arab_protein_data.close
 
+puts "Translation completed"
+
 ######## CREATING BLAST DATABASES ##########
+
+puts "Starting database creation..."
 
 system "makeblastdb -in #{proteome_file} -dbtype 'prot' -out s_pombe_db"
 
 system "makeblastdb -in TAIR10_proteome.fa -dbtype 'prot' -out tair10_db"
 
+puts "Finished database creation"
